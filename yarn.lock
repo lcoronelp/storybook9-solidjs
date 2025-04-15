@@ -1261,6 +1261,70 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lcoronelp/storybook-solid-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "@lcoronelp/storybook-solid-example@workspace:example"
+  dependencies:
+    "@chromatic-com/storybook": "npm:^1.9.0"
+    "@storybook/addon-essentials": "npm:next"
+    "@storybook/addon-interactions": "npm:next"
+    "@storybook/addon-links": "npm:next"
+    "@storybook/test": "npm:next"
+    autoprefixer: "npm:^10.4.20"
+    postcss: "npm:^8.4.47"
+    solid-devtools: "npm:^0.33.0"
+    solid-js: "npm:^1.9.3"
+    storybook: "npm:next"
+    storybook-solidjs: "npm:@lcoronelp/storybook-solidjs@workspace:*"
+    storybook-solidjs-vite: "npm:@lcoronelp/storybook-solidjs-vite@workspace:*"
+    tailwindcss: "npm:^3.4.14"
+    typescript: "npm:5.7.3"
+    vite: "npm:^6.0.0"
+    vite-plugin-solid: "npm:^2.8.2"
+  languageName: unknown
+  linkType: soft
+
+"@lcoronelp/storybook-solidjs-vite@workspace:packages/frameworks/solid-vite, storybook-solidjs-vite@npm:@lcoronelp/storybook-solidjs-vite@workspace:*":
+  version: 0.0.0-use.local
+  resolution: "@lcoronelp/storybook-solidjs-vite@workspace:packages/frameworks/solid-vite"
+  dependencies:
+    "@storybook/builder-vite": "npm:next"
+    "@storybook/types": "npm:next"
+    magic-string: "npm:^0.30.11"
+    solid-js: "npm:~1.9.0"
+    storybook: "npm:next"
+    storybook-solidjs: "npm:@lcoronelp/storybook-solidjs@workspace:*"
+    vite: "npm:^4.0.0 || ^5.0.0 || ^6.0.0"
+  peerDependencies:
+    solid-js: ~1.9.0
+    storybook: "*"
+    vite: ^4.0.0 || ^5.0.0 || ^6.0.0
+    vite-plugin-solid: ^2.10.0
+  languageName: unknown
+  linkType: soft
+
+"@lcoronelp/storybook-solidjs@workspace:packages/renderers/solid, storybook-solidjs@npm:@lcoronelp/storybook-solidjs@workspace:*":
+  version: 0.0.0-use.local
+  resolution: "@lcoronelp/storybook-solidjs@workspace:packages/renderers/solid"
+  dependencies:
+    "@babel/standalone": "npm:^7.26.2"
+    "@storybook/docs-tools": "npm:next"
+    "@storybook/global": "npm:^5.0.0"
+    "@storybook/preview-api": "npm:next"
+    "@storybook/types": "npm:next"
+    "@types/babel__standalone": "link:.yarn/cache/null"
+    async-mutex: "npm:^0.5.0"
+    storybook: "npm:next"
+  peerDependencies:
+    "@storybook/test": "*"
+    solid-js: ~1.9.0
+    storybook: "*"
+  peerDependenciesMeta:
+    "@storybook/test":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@mdx-js/react@npm:^3.0.0":
   version: 3.1.0
   resolution: "@mdx-js/react@npm:3.1.0"
@@ -2280,9 +2344,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__standalone@link:.yarn/cache/null::locator=storybook-solidjs%40workspace%3Apackages%2Frenderers%2Fsolid":
+"@types/babel__standalone@link:.yarn/cache/null::locator=%40lcoronelp%2Fstorybook-solidjs%40workspace%3Apackages%2Frenderers%2Fsolid":
   version: 0.0.0-use.local
-  resolution: "@types/babel__standalone@link:.yarn/cache/null::locator=storybook-solidjs%40workspace%3Apackages%2Frenderers%2Fsolid"
+  resolution: "@types/babel__standalone@link:.yarn/cache/null::locator=%40lcoronelp%2Fstorybook-solidjs%40workspace%3Apackages%2Frenderers%2Fsolid"
   languageName: node
   linkType: soft
 
@@ -6126,70 +6190,6 @@ __metadata:
   checksum: 10/034176196cfcaaab16dbdd96fc9e925a9544799fb6dc5a3e36fe43270f3a287c7f779d785b89edaf22cef2b5f1dcada2aae67430b8602e785ee74bdb3f671768
   languageName: node
   linkType: hard
-
-"storybook-solid-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "storybook-solid-example@workspace:example"
-  dependencies:
-    "@chromatic-com/storybook": "npm:^1.9.0"
-    "@storybook/addon-essentials": "npm:next"
-    "@storybook/addon-interactions": "npm:next"
-    "@storybook/addon-links": "npm:next"
-    "@storybook/test": "npm:next"
-    autoprefixer: "npm:^10.4.20"
-    postcss: "npm:^8.4.47"
-    solid-devtools: "npm:^0.33.0"
-    solid-js: "npm:^1.9.3"
-    storybook: "npm:next"
-    storybook-solidjs: "workspace:*"
-    storybook-solidjs-vite: "workspace:*"
-    tailwindcss: "npm:^3.4.14"
-    typescript: "npm:5.7.3"
-    vite: "npm:^6.0.0"
-    vite-plugin-solid: "npm:^2.8.2"
-  languageName: unknown
-  linkType: soft
-
-"storybook-solidjs-vite@workspace:*, storybook-solidjs-vite@workspace:packages/frameworks/solid-vite":
-  version: 0.0.0-use.local
-  resolution: "storybook-solidjs-vite@workspace:packages/frameworks/solid-vite"
-  dependencies:
-    "@storybook/builder-vite": "npm:next"
-    "@storybook/types": "npm:next"
-    magic-string: "npm:^0.30.11"
-    solid-js: "npm:~1.9.0"
-    storybook: "npm:next"
-    storybook-solidjs: "workspace:*"
-    vite: "npm:^4.0.0 || ^5.0.0 || ^6.0.0"
-  peerDependencies:
-    solid-js: ~1.9.0
-    storybook: "*"
-    vite: ^4.0.0 || ^5.0.0 || ^6.0.0
-    vite-plugin-solid: ^2.10.0
-  languageName: unknown
-  linkType: soft
-
-"storybook-solidjs@workspace:*, storybook-solidjs@workspace:packages/renderers/solid":
-  version: 0.0.0-use.local
-  resolution: "storybook-solidjs@workspace:packages/renderers/solid"
-  dependencies:
-    "@babel/standalone": "npm:^7.26.2"
-    "@storybook/docs-tools": "npm:next"
-    "@storybook/global": "npm:^5.0.0"
-    "@storybook/preview-api": "npm:next"
-    "@storybook/types": "npm:next"
-    "@types/babel__standalone": "link:.yarn/cache/null"
-    async-mutex: "npm:^0.5.0"
-    storybook: "npm:next"
-  peerDependencies:
-    "@storybook/test": "*"
-    solid-js: ~1.9.0
-    storybook: "*"
-  peerDependenciesMeta:
-    "@storybook/test":
-      optional: true
-  languageName: unknown
-  linkType: soft
 
 "storybook@npm:next":
   version: 9.0.0-alpha.1
