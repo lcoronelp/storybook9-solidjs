@@ -1,6 +1,6 @@
 {
   "name": "@lcoronelp/storybook-solidjs",
-  "version": "1.0.0-beta.7_downgradedTSUP",
+  "version": "1.0.0-beta.7-downgradedTSUP-1",
   "description": "Storybook SolidJS renderer",
   "keywords": [
     "storybook"
