@@ -1,5 +1,5 @@
 {
-  "name": "storybook-solidjs",
+  "name": "@lcoronelp/storybook-solidjs",
   "version": "1.0.0-beta.7",
   "description": "Storybook SolidJS renderer",
   "keywords": [
@@ -71,7 +71,8 @@
     "node": ">=18.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "bundler": {
     "entries": [
